@@ -1,0 +1,9 @@
+name: RandomCoolStuff
+version: '${version}'
+main: io.github.astroneer.randomcoolstuff.RandomCoolStuff
+api-version: 1.18
+prefix: RCS
+load: STARTUP
+authors: [ Astroreen ]
+description: Adds some random cool stuff to the game
+website: https://anicloud.ru/
