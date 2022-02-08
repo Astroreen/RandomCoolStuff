@@ -1,0 +1,6 @@
+#Make Item Frame Invisible when shear it
+ItemFrame:
+  enabled: true
+  droppingItem: LEATHER
+  soundVolume: 1.0
+  soundPitch: 1.0

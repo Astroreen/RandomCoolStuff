@@ -1,5 +1,6 @@
 package io.github.astroneer.randomcoolstuff.Listeners;
 
+import io.github.astroneer.randomcoolstuff.RandomCoolStuff;
 import org.bukkit.Sound;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -13,6 +14,8 @@ public class ShearItemFrameListener implements Listener {
 
     @EventHandler
     private void ShearItemFrame (PlayerShearEntityEvent e){
+
+        RandomCoolStuff plugin = RandomCoolStuff.getPlugin();
         Entity entity = e.getEntity();
         Player player = e.getPlayer();
 
