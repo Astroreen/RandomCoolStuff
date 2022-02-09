@@ -1,6 +1,10 @@
 #Make Item Frame Invisible when shear it
 ItemFrame:
   enabled: true
-  droppingItem: LEATHER
+  itemToUse: "SHEARS"
+  dropItem: "LEATHER"
+  dropItemAmount: 1
+  soundName: "ENTITY_SHEEP_SHEAR"
   soundVolume: 1.0
   soundPitch: 1.0
+  applyGlowingEffectToGlowingItemFrame: true
